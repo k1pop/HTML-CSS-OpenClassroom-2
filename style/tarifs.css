@@ -1,0 +1,87 @@
+table {
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    padding: 15px;
+    border: 1px solid #a5b4fc;
+  }
+  
+  td {
+    padding: 80px;
+  }
+
+  .section-studio-pro h1{
+    justify-content: start;
+    margin-bottom: 2rem;
+  }
+
+  h2, h3{
+    color: #A5B4FC;
+    margin-bottom: 20px;
+  }
+  h3{
+    margin-top: 40px;
+  }
+
+  .tarifs-details{
+    font-size: 13px;
+  }
+
+.tarif-contenue{
+  display: flex;
+}
+
+.tarif-contenue div{
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+ padding: 20px 20px 50px;
+ margin: 50px    ;
+  /* width: 50%; */
+
+  /* margin-bottom: 80px; */
+}
+.cta-tarifs{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-tarifs a{
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+.cta-tarifs a:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 996px) {
+  .tarif-contenue{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 996px) {
+    .table thead {
+    display: none;
+    }
+    
+    .table tr{
+    display: block;
+    margin-bottom: 40px;
+    }
+    
+    .table td {
+    display: block;
+    }
+    
+    }
